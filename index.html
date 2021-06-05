@@ -18,22 +18,24 @@
 
         <div class="icon-container">
             <div id="rock-icon" class="icons">
-                <a href="#" onclick="return game('rock'); return false;"><img src="rock.png" alt="Rock"></a>
+                <a id ="rock" href="#"><img src="rock.png" alt="Rock"></a>
             </div>
 
             <div id="paper-icon" class="icons">
-                <a href="#" onclick="return game('paper')"><img src="paper.png" alt="Paper"></a>
+                <a id="paper" href="#"><img src="paper.png" alt="Paper"></a>
             </div>
 
             <div id="scissors-icon" class="icons">
-                <a href="#" onclick="return game('scissors')"><img src="scissors.png" alt="Scissors"></a>
+                <a id="scissors" href="#"><img src="scissors.png" alt="Scissors"></a>
             </div>
         </div>
 
-        <div id="score">Round </div>
+        <div id="round">Round </div>
+        <div id="game-info" class="message"></div>
+        <div id="wl-info" class="message"></div>
         <div class="scoreboard">
-            <div id="player">Player: </div>
-            <div id="opponent">Opponent: </div>
+            <div id="player">Player: 0</div>
+            <div id="opponent">Opponent: 0</div>
         </div>
     </body>
 

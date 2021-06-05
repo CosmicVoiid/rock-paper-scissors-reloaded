@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
 body {
+    font-family: 'Limelight', serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +15,7 @@ body {
 
 .icon-container {
     position: relative;
-    bottom: 4em;
+    bottom: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -65,7 +68,7 @@ header {
     font-size: 15;
     color: rgb(214, 36, 72);
     position: relative;
-    bottom: 30%;
+    bottom: 23%;
 }
 
 h2 {
@@ -75,19 +78,18 @@ h2 {
 
 .scoreboard {
     position: relative;
-    top: 9em;
+    top: 10.7em;
     display: flex;
     width: 15%;
     justify-content: space-between;
-    border: 1px solid blue;
     font-size: 20px;
 }
 
-#score {
+#round {
     font-size: 20px;
     color: black;
     position: relative;
-    top: 8.5em;
+    top: 9.7em;
 }
 
 #player {
@@ -96,4 +98,18 @@ h2 {
 
 #opponent {
     color: blue;
+    position: relative;
+    left: 25px;
+}
+
+.message{
+    height: 40px;
+    width: auto;
+    font-size:18px;
+    position: relative;
+    top: 11.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
 }
