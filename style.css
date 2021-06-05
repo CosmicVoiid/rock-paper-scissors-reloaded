@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+    width: 100%;
+    height: 902px;
+    background-image: url('boxing_ring.jpg');
+    background-size: 100% 100%;
+}
+
+.icon-container {
+    position: relative;
+    bottom: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    position: relative;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid transparent;
+    border-radius: 10%;
+    width: 150px;
+    height: auto;
+}
+
+img {
+    height: 150px;
+}
+
+#paper-icon img {
+    height: 115px;
+    width: auto;
+    padding: 17px;
+}
+
+#rock-icon:hover {
+    border-color: blue;
+}
+
+#paper-icon:hover {
+    border-color: white;
+}
+
+#scissors-icon:hover{
+    border-color: red;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15;
+    color: rgb(214, 36, 72);
+    position: relative;
+    bottom: 30%;
+}
+
+h2 {
+    position: relative;
+    top: 8em;
+}
+
+.scoreboard {
+    position: relative;
+    top: 9em;
+    display: flex;
+    width: 15%;
+    justify-content: space-between;
+    border: 1px solid blue;
+    font-size: 20px;
+}
+
+#score {
+    font-size: 20px;
+    color: black;
+    position: relative;
+    top: 8.5em;
+}
+
+#player {
+    color: red;
+}
+
+#opponent {
+    color: blue;
+}

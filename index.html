@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html>
+    <header>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Rock Paper Scissors Reloaded
+        </title>
+    </header>
+
+    <body>
+        <header>
+            <h1> Rock Paper Scissors Reloaded</h1>
+            <h2> Choose Your Weapon</h2>
+        </header>
+
+        <div id="background"></div>
+        <div class="maps">
+            <map name="rock-map">
+                <area shape="rect" coords="0, 0, 145, 145" href="#" onclick="return game('rock')">
+            </map>
+
+            <map name="paper-map">
+                <area shape="rect" coords="0, 0, 145, 145" href="#" onclick="return false;">
+            </map>
+
+            <map name="scissors-map">
+                <area shape="rect" coords="0, 0, 145, 145" href="#" onclick="return false;">
+            </map>
+        </div>
+
+        <div class="icon-container">
+            <div id="rock-icon" class="icons">
+                <img src="rock.png" alt="Rock" usemap="#rock-map">
+            </div>
+
+            <div id="paper-icon" class="icons">
+                <img src="paper.png" alt="Paper" usemap="#paper-map">
+            </div>
+
+            <div id="scissors-icon" class="icons">
+                <img src="scissors.png" alt="Scissors" usemap="#scissors-map">
+            </div>
+        </div>
+
+        <div id="score">Round </div>
+        <div class="scoreboard">
+            <div id="player">Player: </div>
+            <div id="opponent">Opponent: </div>
+        </div>
+    </body>
+
+    <script src="script.js"></script>
+</html>
