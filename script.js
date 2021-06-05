@@ -104,10 +104,7 @@ function initilizer(){
     compWins = 0;
 }
 
-//Wins counter initilzation
+//initilzation
 let rounds = 0;
 let playerWins = 0;
 let compWins = 0;
-
-//Starts game
-//game(playerChoice);
