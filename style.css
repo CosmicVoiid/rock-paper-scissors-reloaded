@@ -41,6 +41,11 @@ img {
     padding: 17px;
 }
 
+#scissors-icon img {
+    width: 150px;
+}
+
+
 #rock-icon:hover {
     border-color: blue;
 }
